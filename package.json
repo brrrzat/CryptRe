@@ -1,6 +1,7 @@
 {
   "name": "cryptre",
   "private": true,
+  "homepage": "https://brrrzat.github.io/CryptRe",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
