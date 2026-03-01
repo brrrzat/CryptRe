@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #f3ba2f; /* Цвет Bitcoin */
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #a0a0a0;
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #f3ba2f;
+}
+
+.error-message {
+  background-color: #ff4757;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  margin-top: 3rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.crypto-table th {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  font-weight: 600;
+  color: #a0a0a0;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.crypto-table th:hover {
+  background-color: #383838;
+  color: #fff;
+}
+
+.crypto-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #2c2c2c;
+  vertical-align: middle;
+}
+
+.crypto-table tr:hover {
+  background-color: #252525;
+}
+
+.coin-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.coin-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.coin-symbol {
+  color: #a0a0a0;
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+
+.text-green {
+  color: #2ebd85;
+  font-weight: bold;
+}
+
+.text-red {
+  color: #f6465d;
+  font-weight: bold;
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem !important;
+  color: #a0a0a0;
+}
